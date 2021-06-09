@@ -5,52 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" /> -->
-    <script type="text/javascript" defer src="navbar.js"></script>
-    <!-- <script type="text/javascript" defer src="index.js"></script> -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" defer src="index.js"></script>
   </head>
   <body>
-    <!-- 1st navbar -->
-
     <header>
-      <h1 class="logo">Hotel-Linda</h1>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label">
-        <span></span>
-      </label>
-      <nav>
-        <ul>
-          <li><a href="#überuns">ÜberUns</a></li>
-          <li><a href="#angebote">Angebote</a></li>
-          <li><a href="#gallerie">Gallerie</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- 2nd option -->
-
-    <!-- <nav>
-      <div class="toggle">
-        <i class="fas fa-bars menu"></i>
-      </div>
-      <ul class="list">
-        <li><a href="#überuns">ÜberUns</a></li>
-        <li><a href="#angebote">Angebote</a></li>
-        <li><a href="#gallerie">Gallerie</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
-      </ul>
-    </nav> -->
-
-    <!-- 3rd option -->
-    <!-- <header>
       <nav class="nav">
         <div class="logo">
           <h4>Logo</h4>
@@ -63,7 +38,7 @@
         </ul>
         <div class="burger"></div>
       </nav>
-    </header> -->
+    </header>
 
     <section>
       <div id="überuns">
@@ -192,12 +167,16 @@
           >
             <h2>Send Message</h2>
             <div class="inputBox">
-              <input type="text" name="" required="required" />
+              <input type="text" name="text" required="required" />
               <span>Full Name</span>
             </div>
             <div class="inputBox">
               <input type="text" name="email" required="required" />
               <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <input type="number" name="number" required="required" />
+              <span>Mobile No.</span>
             </div>
             <div class="inputBox">
               <textarea name="message" required="required"></textarea>
@@ -210,34 +189,47 @@
           </form>
         </div>
       </div>
-
-      <!-- <script>
-        var form = document.getElementById('my-form');
-
-        async function handleSubmit(event) {
-          event.preventDefault();
-          var status = document.getElementById('my-form-status');
-          var data = new FormData(event.target);
-          fetch(event.target.action, {
-            method: form.method,
-            body: data,
-            headers: {
-              Accept: 'application/json',
-            },
-          })
-            .then((response) => {
-              status.innerHTML = 'Thanks for your submission!';
-              form.reset();
-            })
-            .catch((error) => {
-              status.innerHTML =
-                'Oops! There was a problem submitting your form';
-            });
-        }
-        form.addEventListener('submit', handleSubmit);
-      </script> -->
     </section>
+    <!-- gallery -->
+    <!-- <section id="gallerie">
+      <div class="grid">
+        <img src="https://source.unsplash.com/400x400?mountain" />
+        <img src="https://source.unsplash.com/400x400?nature" />
+        <img src="https://source.unsplash.com/400x400?valley" />
+        <img src="https://source.unsplash.com/400x400?beach" />
+        <img src="https://source.unsplash.com/400x400?ocean" />
+        <img src="https://source.unsplash.com/400x400?water" />
+        <img src="https://source.unsplash.com/400x400?trees" />
+        <img src="https://source.unsplash.com/400x400?lake" />
+        <img src="https://source.unsplash.com/400x400?cliff" />
+      </div>
+    </section> -->
 
-    <!--contact-form-container------------------->
+    <!-- <script>
+      var form = document.getElementById('my-form');
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById('my-form-status');
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            Accept: 'application/json',
+          },
+        })
+          .then((response) => {
+            status.innerHTML = 'Thanks for your submission!';
+            form.reset();
+          })
+          .catch((error) => {
+            status.innerHTML = 'Oops! There was a problem submitting your form';
+          });
+      }
+      form.addEventListener('submit', handleSubmit);
+    </script> -->
+
+    <!--gallery container------------------->
   </body>
 </html>
