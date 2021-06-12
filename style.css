@@ -65,7 +65,7 @@ p.aboutP {
   position: fixed;
   z-index: 999;
   width: 100%;
-  background: rgb(80, 170, 230);
+  background: green;
   color: #eee;
   display: flex;
   align-items: center;
@@ -80,10 +80,15 @@ p.aboutP {
 
   font-size: 25px;
 }
+.logo img {
+  width: 80px;
+  margin-top: -40px;
+}
 
 .nav__list {
+  margin-top: -30px;
   display: flex;
-  width: 40rem;
+  width: 43rem;
   font-size: 25px;
 }
 .nav__list a {
@@ -304,6 +309,7 @@ p.aboutP {
 }
 
 .contactForm .inputBox {
+  margin-left: 25px;
   position: relative;
   width: 100%;
   margin-top: 10px;
@@ -459,14 +465,16 @@ p.aboutP {
 .about {
   background-color: burlywood;
   color: black;
+  height: 800px;
 }
 h1.aboutH {
-  color: white;
+  color: black;
   text-align: center;
+  margin-top: 250px;
 }
 p.aboutP {
-  margin-top: 150px;
-
+  margin-top: 50px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 40em;
