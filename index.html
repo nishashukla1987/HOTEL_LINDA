@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,193 +11,337 @@
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
     crossorigin="anonymous"
   />
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"
-  ></script>
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" defer src="index.js"></script>
   </head>
   <body>
     <header>
-      <a href="#" class="logo">Portfolio</a>
-      <div class="toggle"></div>
-      <ul>
-        <li><a href="#überuns"> ÜberUns</a></li>
-        <li><a href="#angebote"> Angebote</a></li>
-        <li><a href="#gallerie"> Gallerie</a></li>
-        <li><a href="#kontakt"> Kontakt</a></li>
-      </ul>
+      <nav class="nav">
+        <div class="logo">
+          <h4>Logo</h4>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__list__item"><a href="#überuns">ÜberUns</a></li>
+          <li class="nav__list__item"><a href="#angebote">Angebote</a></li>
+          <li class="nav__list__item"><a href="#gallerie">Gallerie</a></li>
+          <li class="nav__list__item"><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <div class="burger"></div>
+      </nav>
+    </header>
+
+    <section>
       <div class="about">
         <h1 class="aboutH">überuns test</h1>
-        <p class="aboutP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deserunt, iure distinctio nobis odit commodi magni facilis soluta voluptates? Dignissimos neque sunt nemo reiciendis. Est minima deserunt ipsum dolore nesciunt suscipit tenetur delectus? Illo aliquid reprehenderit aperiam earum perferendis cumque est pariatur maiores possimus, sit amet rem omnis esse in ex nesciunt laborum, blanditiis asperiores tempore recusandae quibusdam quod quam saepe. Pariatur placeat laborum illum maxime neque est error dicta, quisquam dolor nemo officia voluptatum ex. Fuga, quam doloremque iusto facilis sunt cupiditate harum dignissimos nihil, adipisci daspernatur beatae facilis numquam voluptates quia enim atque deleniti rerum magni distinctio deserunt commodi facere, aut dicta consequatur ab dolorem,us rem inventore nam, explicabo molestiae ad expedita unde, accusantium exercitationem recusandae nobis quo facere est veritatis! Quam assumenda quod dignissimos molestias! Praesentium, inventore? Culpa assumenda dolorem maxime eius quidem at deleniti asperiores, repudiandae cumque molestiae, minus ex doloremque ut hic. Cumque magnam adipisci nobis neque, eligendi explicabo quibusdam enim maiores quod vitae laboriosam vero, aspernatur facere consequuntur animi eveniet, minima consequatur autem quis eum ratione exercitationem ipsa vel! Rem amet, vero eum delectus autem explicabo nobis deserunt eos totam necessitatibus quas quam est illo molestiae officia, velit molestias tenetur. Hic dignissimos sunt non aliquam ab debitis quibusdam earum quae, optio perspiciatis quisquam! Dolor qui magnam, nihil, obcaecati ut suscipit voluptas quo recusandae labore dolores ullam alias mollitia est distinctio facere quasi numquam inventore enim dolorum nostrum expedita. Neque voluptate vitae fuga natus, dicta in velit odio debitis fugit recusandae deserunt enim laborum maxime aliquam, omnis consectetur obcaecati tempore nemo optio praesentium animi. Doloribus fugiat voluptates voluptate quas quibusdam.</p>
+        <p class="aboutP">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          deserunt, iure distinctio nobis odit commodi magni facilis soluta
+          voluptates? Dignissimos neque sunt nemo reiciendis. Est minima
+          deserunt ipsum dolore nesciunt suscipit tenetur delectus? Illo aliquid
+          reprehenderit aperiam earum perferendis cumque est pariatur maiores
+          possimus, sit amet rem omnis esse in ex nesciunt laborum, blanditiis
+          asperiores tempore recusandae quibusdam quod quam saepe. Pariatur
+          placeat laborum illum maxime neque est error dicta, quisquam dolor
+          nemo officia voluptatum ex. Fuga, quam doloremque iusto facilis sunt
+          cupiditate harum dignissimos nihil, adipisci daspernatur beatae
+          facilis numquam voluptates quia enim atque deleniti rerum magni
+          distinctio deserunt commodi facere, aut dicta consequatur ab
+          dolorem,us rem inventore nam, explicabo molestiae ad expedita unde,
+          accusantium exercitationem recusandae nobis quo facere est veritatis!
+          Quam assumenda quod dignissimos molestias! Praesentium, inventore?
+          Culpa assumenda dolorem maxime eius quidem at deleniti asperiores,
+          repudiandae cumque molestiae, minus ex doloremque ut hic. Cumque
+          magnam adipisci nobis neque, eligendi explicabo quibusdam enim maiores
+          quod vitae laboriosam vero, aspernatur facere consequuntur animi
+          eveniet, minima consequatur autem quis eum ratione exercitationem ipsa
+          vel! Rem amet, vero eum delectus autem explicabo nobis deserunt eos
+          totam necessitatibus quas quam est illo molestiae officia, velit
+          molestias tenetur. Hic dignissimos sunt non aliquam ab debitis
+          quibusdam earum quae, optio perspiciatis quisquam! Dolor qui magnam,
+          nihil, obcaecati ut suscipit voluptas quo recusandae labore dolores
+          ullam alias mollitia est distinctio facere quasi numquam inventore
+          enim dolorum nostrum expedita. Neque voluptate vitae fuga natus, dicta
+          in velit odio debitis fugit recusandae deserunt enim laborum maxime
+          aliquam, omnis consectetur obcaecati tempore nemo optio praesentium
+          animi. Doloribus fugiat voluptates voluptate quas quibusdam.
+        </p>
       </div>
-  
 
- 
- <div id="gallerie" 
- id="carouselExampleIndicators"
- class="carousel slide"
- data-bs-ride="carousel"
->
+      <div id="gallerie" 
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+     >
+          
+     
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/2.jpeg" class="d-block w-100" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/3.jpeg" class="d-block w-100" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/4.jpeg" class="d-block w-100" alt="" />
+        </div>
+        <div class="carousel-item">
+         <img src="./images/6.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/7.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/8.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/9.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/10.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/11.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/12.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/13.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/14.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/15.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/16.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/17.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/18.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/19.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/20.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/21.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/22.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/24.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/25.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/26.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/27.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/28.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/29.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/30.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/31.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/32.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/33.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/34.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/35.jpeg" class="d-block w-100" alt="" />
+       </div>
+       <div class="carousel-item">
+         <img src="./images/36.jpeg" class="d-block w-100" alt="" />
+       </div>
+       
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+     </div>
+     </section>
+         
+             
+     
+     
      
 
- <div class="carousel-indicators">
-   <button
-     type="button"
-     data-bs-target="#carouselExampleIndicators"
-     data-bs-slide-to="0"
-     class="active"
-     aria-current="true"
-     aria-label="Slide 1"
-   ></button>
-   <button
-     type="button"
-     data-bs-target="#carouselExampleIndicators"
-     data-bs-slide-to="1"
-     aria-label="Slide 2"
-   ></button>
-   <button
-     type="button"
-     data-bs-target="#carouselExampleIndicators"
-     data-bs-slide-to="2"
-     aria-label="Slide 3"
-   ></button>
- </div>
- <div class="carousel-inner">
-   <div class="carousel-item active">
-     <img src="./images/2.jpeg" class="d-block w-100" alt="" />
-   </div>
-   <div class="carousel-item">
-     <img src="./images/3.jpeg" class="d-block w-100" alt="" />
-   </div>
-   <div class="carousel-item">
-     <img src="./images/4.jpeg" class="d-block w-100" alt="" />
-   </div>
-   <div class="carousel-item">
-    <img src="./images/6.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/7.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/8.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/9.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/10.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/11.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/12.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/13.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/14.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/15.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/16.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/17.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/18.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/19.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/20.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/21.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/22.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/24.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/25.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/26.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/27.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/28.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/29.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/30.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/31.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/32.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/33.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/34.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/35.jpeg" class="d-block w-100" alt="" />
-  </div>
-  <div class="carousel-item">
-    <img src="./images/36.jpeg" class="d-block w-100" alt="" />
-  </div>
-  
- </div>
- <button
-   class="carousel-control-prev"
-   type="button"
-   data-bs-target="#carouselExampleIndicators"
-   data-bs-slide="prev"
- >
-   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-   <span class="visually-hidden">Previous</span>
- </button>
- <button
-   class="carousel-control-next"
-   type="button"
-   data-bs-target="#carouselExampleIndicators"
-   data-bs-slide="next"
- >
-   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-   <span class="visually-hidden">Next</span>
- </button>
-</div>
-    
-        
-
-
-
-     
+      <div id="angebote">
+        <h1>angebote test</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sed
+          minima rem, culpa architecto inventore alias esse molestiae voluptas
+          et debitis consequatur aliquam iure voluptatum quia nisi dicta? Eius
+          cumque aut reiciendis eaque architecto. Ducimus voluptatem eaque
+          repudiandae sed earum est numquam tempore veritatis, iste, optio dolor
+          consectetur veniam? Nulla quas voluptatum sed consectetur possimus et.
+          Distinctio pariatur, qui quia, laborum culpa impedit magni accusantium
+          error officia corrupti minima esse est sint quos reprehenderit harum
+          laudantium quasi, vero aperiam repudiandae assumenda alias quibusdam
+          dolores. Debitis provident commodi praesentium laborum nisi ab quos
+          voluptate possimus temporibus labore sed unde, quia molestias cumque
+          magnam? Laboriosam quisquam error possimus, assumenda hic nobis unde
+          tempora porro consectetur aspernatur voluptatum vel ipsum maxime.
+          Minus, pariatur. Nam eum incidunt accusamus temporibus, id laborum
+          quam error quisquam ipsum diis quos suscipit atque deleniti cumque
+          natus officia voluptatem dolores tenetur alias. Modi nisi quasi omnis
+          minus dolor tempore voluptatibus, esse ut cupiditate placeat nobis ad,
+          quas alias perferendis incidunt dolores ea sequi adipisci fugiat.
+          Deleniti voluptas obcaecati, a voluptates autem quo odio at incidunt
+          quam recusandae, officiis perferendis nam! Magni dolorem rem
+          voluptatem nulla consequuntur laborum blanditiis, minus maxime
+          sapiente delectus sed! Eos voluptates quia voluptas illum in. Sequi
+          culpa labore a aliquam recusandae illo minus maiores corrupti sit
+          harum, voluptatum qui tempora iusto quas cum odio unde veritatis porro
+          pariatur doloremque!
+        </p>
+      </div>
     </section>
- 
 
-  
-  
-    <link rel="stylesheet" href="style.css" />
-</body>
+    <section id="kontakt" class="contact">
+      <div class="content">
+        <h1>Contact Us</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscinng elit, sed do
+          eiusmod tempore incididunt ut labore et dolore magna aliqua.Ut enim ad
+          minim veniam.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"><i class="fa fa-map-marker"></i></div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>
+                Bottroper Str. 259, <br />
+                Gladbeck, <br />45964
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="icon"><i class="fa fa-phone"></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>020434020564</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="icon"><i class="fa fa-envelope-o"></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>info.hotelgladbecklinda@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contactForm">
+          <form
+            id="my-form"
+            action="https://formspree.io/f/mwkaorjr"
+            method="POST"
+            class="form"
+          >
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" name="text" required="required" />
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="email" required="required" />
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <input type="number" name="number" required="required" />
+              <span>Mobile No.</span>
+            </div>
+            <div class="inputBox">
+              <textarea name="message" required="required"></textarea>
+              <span>Type Your Message...</span>
+            </div>
+            <div class="inputBox">
+              <input id="my-form-button" type="submit" name="" value="Send" />
+              <p id="my-form-status"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
-
-
