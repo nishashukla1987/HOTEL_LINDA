@@ -122,6 +122,10 @@
 }
 
 @media (min-width: 42rem) {
+  .nav {
+    flex-wrap: nowrap;
+    padding: 1.5rem;
+  }
   .nav__list__active {
     display: none;
   }
@@ -133,6 +137,21 @@
   }
 }
 
+@media (max-width: 540px) {
+  .nav {
+    flex-wrap: nowrap;
+    padding: 1.5rem;
+  }
+  /* .nav__list__active {
+    display: none;
+  }
+  .nav__list__item {
+    display: block;
+  }
+  .burger {
+    display: none;
+  } */
+}
 @media (max-width: 30rem) {
   .nav {
     flex-wrap: nowrap;
