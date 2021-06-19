@@ -342,7 +342,7 @@ nav {
 
   #carouselExampleControls {
     margin-top: 0;
-    padding-top: 80px;
+    padding-top: 0;
   }
 }
 
@@ -350,11 +350,12 @@ nav {
 #überuns {
   margin-top: 10vh;
   background-color: burlywood;
-  /* padding-top: 160px; */
+  padding-top: 100px;
 }
 #angebote {
   margin-top: 5vh;
   background-color: burlywood;
+  padding-top: 100px;
 }
 
 h2 {
