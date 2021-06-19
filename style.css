@@ -78,7 +78,7 @@ nav {
   .nav-links {
     position: fixed;
     right: 0px;
-    /* height: 92vh; */
+
     height: 100%;
     top: 8vh;
     background-color: #754d90;
@@ -133,7 +133,7 @@ nav {
   margin-top: 8vh;
   width: 100%;
   position: relative;
-
+  padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,19 +328,39 @@ nav {
   .d-block {
     height: 200px;
   }
+  #überuns {
+    padding-top: 100px;
+  }
+
+  #angebote {
+    padding-top: 80px;
+  }
+  #angebote,
+  #kontakt {
+    padding-top: 100px;
+  }
+
+  #carouselExampleControls {
+    margin-top: 0;
+    padding-top: 80px;
+  }
 }
 
 /* uberuns */
 #überuns {
-  margin-top: 15vh;
+  margin-top: 10vh;
+  background-color: burlywood;
+  /* padding-top: 160px; */
 }
 #angebote {
   margin-top: 5vh;
+  background-color: burlywood;
 }
 
 h2 {
   text-align: center;
 }
 .carousel {
+  background-color: burlywood;
   margin: 20px 0;
 }
