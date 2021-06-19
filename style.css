@@ -10,17 +10,16 @@
   color: inherit;
 }
 
-/* Navbar */
-
-/* .nav {
+.nav {
   position: fixed;
+  top: 0;
   z-index: 999;
   width: 100%;
-  background: rgb(80, 170, 230);
+  background: blue;
   color: #eee;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 3rem;
   height: 4rem;
 }
@@ -31,10 +30,15 @@
 
   font-size: 25px;
 }
+.logo img {
+  width: 80px;
+  margin-top: -40px;
+}
 
 .nav__list {
+  margin-top: -30px;
   display: flex;
-  width: 40rem;
+  width: 53rem;
   font-size: 25px;
 }
 .nav__list a {
@@ -88,7 +92,7 @@
   pointer-events: all;
   cursor: pointer;
   font-weight: bold;
-  color: #333;
+  /* color: #333; */
   position: relative;
   padding: 0 2rem;
 }
@@ -104,6 +108,18 @@
   background: #333;
   transition: width 0.3s;
 }
+.home img {
+  width: 1500px;
+  height: 600px;
+}
+
+/* .nav__list__item:hover:after {
+  width: 100%;
+} */
+
+/* .nav__list__item:selected {
+  color: black;
+} */
 
 .burger {
   display: block;
@@ -122,10 +138,6 @@
 }
 
 @media (min-width: 42rem) {
-  .nav {
-    flex-wrap: nowrap;
-    padding: 1.5rem;
-  }
   .nav__list__active {
     display: none;
   }
@@ -137,24 +149,8 @@
   }
 }
 
-@media (max-width: 540px) {
-  .nav {
-    flex-wrap: nowrap;
-    padding: 1.5rem;
-  }
-  /* .nav__list__active {
-    display: none;
-  }
-  .nav__list__item {
-    display: block;
-  }
-  .burger {
-    display: none;
-  } 
-
 @media (max-width: 30rem) {
   .nav {
-    flex-wrap: nowrap;
     padding: 1.5rem;
   }
 
@@ -165,13 +161,14 @@
     transition: all 0.5s ease-in-out;
     padding-bottom: 100vh;
   }
-} */
+}
+
 /* newnav bar */
-nav {
+/* nav {
   position: fixed;
   z-index: 999;
-  top: 0;
-  width: 100%;
+  top: 0; */
+/* width: 100%;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -267,7 +264,7 @@ nav {
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
@@ -489,14 +486,40 @@ nav {
   }
 }
 
-/* uberuns */
-#überuns {
-  margin-top: 15vh;
+.überuns {
+  background-color: burlywood;
+  color: black;
+  height: 800px;
 }
-#angebote {
-  margin-top: 5vh;
+h1.überunsH {
+  color: black;
+  text-align: center;
+  margin-top: 250px;
 }
-
+p.überunsP {
+  margin-top: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+}
+.angebote {
+  background-color: burlywood;
+  color: black;
+  height: 800px;
+}
+h1.angeboteH {
+  color: black;
+  text-align: center;
+  margin-top: 250px;
+}
+p.angeboteP {
+  margin-top: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+}
 .carousel {
   margin: 5vh 2vw;
 }
