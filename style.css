@@ -344,6 +344,10 @@ nav {
     margin-top: 0;
     padding-top: 0;
   }
+  carousel {
+    margin-top: 8vh;
+    padding-top: 180px;
+  }
 }
 
 /* uberuns */
@@ -364,4 +368,5 @@ h2 {
 .carousel {
   background-color: burlywood;
   margin: 20px 0;
+  padding-top: 100px;
 }
