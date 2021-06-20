@@ -347,10 +347,28 @@ nav {
 }
 
 /* uberuns */
-#überuns {
+/* #überuns {
   margin-top: 10vh;
   background-color: burlywood;
   padding-top: 100px;
+} */
+
+.überuns {
+  background-color: burlywood;
+  color: black;
+  height: 800px;
+}
+h1.überunsH {
+  color: black;
+  text-align: center;
+  margin-top: 250px;
+}
+p.überunsP {
+  margin-top: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
 }
 #angebote {
   margin-top: 5vh;
@@ -362,7 +380,7 @@ h2 {
   text-align: center;
 }
 .carousel {
-  padding-top: 100px;
+  padding-top: 80px;
   background-color: burlywood;
-  margin: 10px 0;
+  /* margin: 10px 0; */
 }
