@@ -37,7 +37,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 50%;
 }
 
 .nav-links li {
@@ -297,7 +297,11 @@ nav {
   .contactInfo .box .text {
     font-size: 20px;
   }
+  .d-block {
+    height: 400px;
+  }
 }
+
 @media (max-width: 450px) {
   .contactInfo {
     width: 100%;
@@ -344,8 +348,17 @@ nav {
     margin-top: 0;
     padding-top: 0;
   }
+  carousel {
+    margin-top: 8vh;
+    padding-top: 180px;
+  }
 }
 
+@media (max-width: 750px) {
+  .d-block {
+    height: 300px;
+  }
+}
 /* uberuns */
 #überuns {
   margin-top: 10vh;
@@ -362,6 +375,7 @@ h2 {
   text-align: center;
 }
 .carousel {
+  padding-top: 100px;
   background-color: burlywood;
-  margin: 20px 0;
+  margin: 10px 0;
 }
