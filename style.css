@@ -15,8 +15,8 @@
 }
 
 /* Navbar */
-.l{
-  width:150px;
+.l {
+  width: 150px;
 }
 nav {
   position: fixed;
@@ -305,8 +305,8 @@ nav {
   }
 }
 @media (max-width: 450px) {
-  .home{
-    display:block;
+  .home {
+    display: block;
   }
   .contactInfo {
     width: 100%;
@@ -400,8 +400,3 @@ h2 {
   background-color: burlywood;
   /* margin: 10px 0; */
 }
-.burger {
-  display: block;
-  /* cursor:; */
-}
-
