@@ -15,13 +15,15 @@
 }
 
 /* Navbar */
-
+.l{
+  width:150px;
+}
 nav {
   position: fixed;
   z-index: 999;
   top: 0;
   width: 100%;
-  padding: 20px;
+  padding: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,9 +34,9 @@ nav {
 
 .logo {
   color: rgb(226, 226, 226);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 5px;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-size: 25px;
 }
 
@@ -143,7 +145,7 @@ nav {
   align-items: center;
   flex-direction: column;
 
-  background: url(/HOTEL_LINDA/images/11.jpeg);
+  background: url(/HOTEL_LINDA/images/29.jpeg);
   background-size: cover;
 }
 
@@ -303,6 +305,9 @@ nav {
   }
 }
 @media (max-width: 450px) {
+  .home{
+    display:block;
+  }
   .contactInfo {
     width: 100%;
     margin: 10px 0;
@@ -335,9 +340,13 @@ nav {
   #überuns {
     padding-top: 100px;
   }
+  .überunsP {
+    display: inline;
+  }
 
   #angebote {
     padding-top: 80px;
+    text-align: center;
   }
   #angebote,
   #kontakt {
@@ -349,13 +358,16 @@ nav {
     padding-top: 0;
   }
 }
+.an {
+  text-align: center;
+}
 
 /* uberuns */
-/* #überuns {
+#überuns {
   margin-top: 10vh;
   background-color: burlywood;
   padding-top: 100px;
-} */
+}
 
 .überuns {
   background-color: burlywood;
