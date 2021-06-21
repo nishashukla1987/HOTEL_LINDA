@@ -400,3 +400,8 @@ h2 {
   background-color: burlywood;
   /* margin: 10px 0; */
 }
+.burger {
+  display: block;
+  /* cursor:; */
+}
+
