@@ -168,7 +168,7 @@ nav {
   align-items: center;
   flex-direction: column;
 
-  background: url(/HOTEL_LINDA/images/20.jpeg);
+  background: url(/20.jpeg);
   background-size: cover;
 }
 
@@ -445,4 +445,7 @@ h2 {
   padding-top: 80px;
   background-color: burlywood;
   /* margin: 10px 0; */
+}
+footer {
+  text-align: center;
 }
